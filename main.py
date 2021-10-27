@@ -1,5 +1,6 @@
 # Tip: You can use the type(element) function to check whether an item
 # is a list or an integer.
+# O(n) time | O(1) Space
 def productSum(array, multiplier=1):
     """
     Write a function that takes in a "special" array and returns its product sum. A "special" array is a non-empty
