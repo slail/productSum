@@ -9,8 +9,8 @@ def productSum(array, multiplier=1):
     """
     total = 0
     for num in array:
-        if type(num) is list:
-            total += productSum(num, multiplier + 1)
+        if type(num) == list:
+            total += productSum(num, mul + 1)
         else:
             total += num
-    return total * multiplier
+    return total * mul
